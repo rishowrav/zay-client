@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu li:hover {
+  background: none !important;
+}
+
+a.active {
+  color: #59ab6e !important;
+  background: none !important;
+}
+
+a.active:focus {
+  color: #59ab6e !important;
+  background: none !important;
+}
+
+.navbar li a:hover {
+  color: #59ab6e !important;
+  background: transparent !important;
+}
