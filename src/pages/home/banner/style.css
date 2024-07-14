@@ -1,0 +1,58 @@
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: #efefef;
+}
+
+.navigation-wrapper {
+  position: relative;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  border: none;
+  width: 35px;
+  height: 4px !important;
+  background: #59ab6e80;
+
+  margin: 0 5px;
+  margin-top: -50px;
+
+  cursor: pointer;
+  z-index: 999;
+}
+
+.dot:focus {
+  outline: none;
+}
+
+.dot.active {
+  background: #59ab6e;
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  fill: #59ab6e;
+  cursor: pointer;
+}
+
+.arrow--left {
+  left: 15px;
+}
+
+.arrow--right {
+  left: auto;
+  right: 15px;
+}
+
+.arrow--disabled {
+  fill: #59ab6e80;
+}
